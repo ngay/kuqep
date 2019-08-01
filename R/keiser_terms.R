@@ -1,3 +1,9 @@
+#' Generate a list of KU terms.
+#'
+#' @param start The starting term entered as text (in quotes), two-digit year, semester character, and term character.
+#' @param stop The stopping term entered as text (in quotes), two-digit year, semester character, and term character.
+#' @return A sequence of ordered term codes.
+
 keiser_terms = function(start,stop){
   #Note: The start and stop must be in quotest
   report = c(start,stop)

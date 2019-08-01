@@ -1,5 +1,5 @@
 Package: kuqep
-Title: What the Package Does (One Line, Title Case)
+Title: Keiser QEP Functions and Scripts
 Version: 0.0.0.1
 Authors@R: 
     person(given = "Nathanael",
@@ -7,6 +7,7 @@ Authors@R:
            role = c("aut", "cre"),
            email = "nagy@keiseruniversity.edu")
 Description: Functions and scripts for KU data analysis.
-License: GNU General Public License v3.0
+License: GPL-3
 Encoding: UTF-8
 LazyData: true
+RoxygenNote: 6.1.1
