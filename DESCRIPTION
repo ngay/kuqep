@@ -1,11 +1,8 @@
 Package: kuqep
 Title: Keiser QEP Functions and Scripts
 Version: 0.0.0.1
-Authors@R: 
-    person(given = "Nathanael",
-           family = "Gay",
-           role = c("aut", "cre"),
-           email = "nagy@keiseruniversity.edu")
+Author: Nathanael Gay
+Maintainer: Nathanael gay <ngay@keiseruniversity.edu>
 Description: Functions and scripts for KU data analysis.
 License: GPL-3
 Encoding: UTF-8
