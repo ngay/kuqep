@@ -3,6 +3,7 @@
 #' @param start The starting term entered as text (in quotes), two-digit year, semester character, and term character.
 #' @param stop The stopping term entered as text (in quotes), two-digit year, semester character, and term character.
 #' @return A sequence of ordered term codes.
+#' @export keiser_terms
 
 keiser_terms = function(start,stop){
   #Note: The start and stop must be in quotest
