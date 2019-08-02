@@ -28,5 +28,6 @@ keiser_terms = function(start,stop){
     start_term = 1
     stop_term = ifelse((num_terms-length(report_seq))<=12,match(substr(report,3,4)[2],year_seq),12)
   }
+  report_seq = factor(report_seq,levels=report_seq,ordered=TRUE)
   return(report_seq)
 }
