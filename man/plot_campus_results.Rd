@@ -11,6 +11,9 @@ plot_campus_results(data, location)
 
 \item{location}{The campus for which the plot is generated.}
 }
+\value{
+campus_plot A ggplot object.
+}
 \description{
 An internal function used to generate the QEP master report.
 }
