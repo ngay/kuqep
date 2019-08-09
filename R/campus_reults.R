@@ -9,6 +9,6 @@ campus_results <- function(data,location){
   cat(sprintf("### Results for "),location,".  ")
   data <-  data %>%
     filter(Campus == location)
-  cat(sprint("   "))
+  cat(sprintf("   "))
   plot_campus_results(data,location)
 }
