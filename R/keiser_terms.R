@@ -6,7 +6,7 @@
 #' @export keiser_terms
 
 keiser_terms = function(start,stop){
-  #Note: The start and stop must be in quotest
+  #Note: The start and stop must be in quotes
   report = c(start,stop)
   #Create the sequence of semesters and terms
   sem_seq = rep(c("W","S","F"),each = 4)
