@@ -3,7 +3,7 @@
 \name{locations}
 \alias{locations}
 \title{Keiser QEP Locations}
-\format{A data frame with 8 rows and 3 columns.}
+\format{A data frame with 9 rows and 3 columns.}
 \description{
 An updated list of full Keiser campus names, and associated campus abbreviations and QEP starts.
 }

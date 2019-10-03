@@ -2,7 +2,7 @@ Package: kuqep
 Title: Keiser QEP Functions and Scripts
 Version: 0.0.0.1
 Author: Nathanael Gay
-Maintainer: Nathanael gay <ngay@keiseruniversity.edu>
+Maintainer: Nathanael Gay <ngay@keiseruniversity.edu>
 Description: Functions and scripts for KU data analysis.
 License: GPL-3
 Encoding: UTF-8

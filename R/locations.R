@@ -8,7 +8,7 @@
 #' \item start_term Term code when that campus began the QEP.
 #' }
 #'
-#' @format A data frame with 8 rows and 3 columns.
+#' @format A data frame with 9 rows and 3 columns.
 #' @name locations
 #'
 NULL
