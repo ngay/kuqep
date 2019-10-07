@@ -2,13 +2,14 @@
 #'
 #' @param data The dataset to clean.
 #' @param loc The dataframe that contains Keiser locations and starting terms.
+#' @param report A dataframe that lists the starting and stopping terms.
 #' @return A dataset that has: (1) abbreviated campus names, (2) ordered terms, (3) separate variables
 #'   for term, semester, and year, (3) no WNAs, (4) class size, (5) attempt number, and
 #'   (6) defines success.
 #' @import dplyr
 #' @export
 
-fnlgrd_clean <- function(data,loc){
+fnlgrd_clean <- function(data,loc,report){
 
   #Replace full campus names with their abbreviations
   data$Campus_old=data$Campus

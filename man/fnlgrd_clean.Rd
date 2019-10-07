@@ -4,12 +4,14 @@
 \alias{fnlgrd_clean}
 \title{Clean Final Grades for the QEP.}
 \usage{
-fnlgrd_clean(data, loc)
+fnlgrd_clean(data, loc, report)
 }
 \arguments{
 \item{data}{The dataset to clean.}
 
 \item{loc}{The dataframe that contains Keiser locations and starting terms.}
+
+\item{report}{A dataframe that lists the starting and stopping terms.}
 }
 \value{
 A dataset that has: (1) abbreviated campus names, (2) ordered terms, (3) separate variables
